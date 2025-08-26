@@ -26,6 +26,6 @@ void loop() {                             //Ciclo de trabajo
 }
 }
 
+```
 
-
-[Circuito1]: 
+![Circuito](./asets/Circuito1.png)
