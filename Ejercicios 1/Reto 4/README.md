@@ -2,7 +2,27 @@
 
 ## Explicacion del contador binario con LEDs
 
-Se creó un contador binario con 4 leds para reprecentar cada bit y por medio de un botón se va amentando su valor.
+Se creó un contador binario con 4 leds para reprecentar cada bit y por medio de un botón, se guarda en un contador la señal del botón para asociar dicho contador con un número binario como se muestra en la tabla. Al llegar al número 15 se reinicia la secuencia.
+
+| Contador | Led A | Led B | Led C | Led D |
+|--------|------|--------|--------| --------|
+| 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 1 |
+| 2 | 0 | 0 | 1 | 0 |
+| 3 | 0 | 0 | 1 | 1 |
+| 4 | 0 | 1 | 0 | 0 |
+| 5 | 0 | 1 | 0 | 1 |
+| 6 | 0 | 1 | 1 | 0 |
+| 7 | 0 | 1 | 1 | 1 |
+| 8 | 1 | 0 | 0 | 0 |
+| 9 | 1 | 0 | 0 | 1 |
+| 10| 1 | 0 | 1 | 0 |
+| 11| 1 | 0 | 1 | 1 |
+| 12| 1 | 1 | 0 | 0 |
+| 13| 1 | 1 | 0 | 1 |
+| 14| 1 | 1 | 1 | 0 |
+| 15| 1 | 1 | 1 | 1 |
+
 
 ```c
 int cont = 0;
@@ -125,5 +145,8 @@ void loop() {
   Serial.println(cont);
 }
 
+```
+#### Imagen del circuito:
 
+![Circuito](./asets/CircuitReto4.png)
 

@@ -2,7 +2,7 @@
 
 ## Explicacion del encendido de un LED con un boton
 
-Para la solucion del reto
+Para encender el led, se lee la señal del botón (1 ó 0). Si la lectura del botón es 1, se enciende el led; si la lectura del botón en 0, se apaga  el boton.
 
 ```c
 int pushButton = 2;  // Declaracion de vatriables y constantes
@@ -27,5 +27,7 @@ void loop() {                             //Ciclo de trabajo
 }
 
 ```
+
+#### Imagen del circuito:
 
 ![Circuito](./asets/Circuito1.png)
